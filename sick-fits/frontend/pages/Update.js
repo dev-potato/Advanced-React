@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import CreateItem from '../components/CreateItem';
+import UpdateItem from '../components/UpdateItem';
 
 const Sell  = props => {
    return (
        <div>
-           <CreateItem />
+           <UpdateItem />
        </div>
        ) 
 }
