@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import UpdateItem from '../components/UpdateItem';
 
-const Sell  = props => {
+const Update  = props => {
    return (
        <div>
-           <UpdateItem />
+           <UpdateItem id={props.query.id}/>
        </div>
        ) 
 }
 
-export default Sell;
+export default Update;
